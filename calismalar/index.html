@@ -10,11 +10,11 @@
 <nav>bu nav ise header dan sonra ve yine ayı bir satır yaptı. nav genellikle bu sayfa ile ilgili başka dokümanlara link vermek için kullanılıyormuş ayrı bir satıra geçmesinin sebebi hader 'dan kaynaklanıyor sanıyorum</nav>
 
 
-<h1>H1 tag, ana başlık</h1>
-
+<h1 id="id1">H1 tag, ana başlık ve id1</h1>
+<a href="#id4"> buraya basarsan sona gidersin</a>
 <p> p tag </p>
 <p> ikinci p tag </p>
-<p> üçüncü p tag <span> bu kısım span içinde </span> bu kısım span dışında</p> 
+<p id="id2"> üçüncü p tag ve id2  <span> bu kısım span içinde </span> bu kısım span dışında</p> 
 <hr>
 <div>div span denemesi</div>
 <div>burası div <span>burası span </span>burası div</div>
@@ -24,7 +24,7 @@
 
 <!--- <span>burası span <div>burası div</div> burası span</span>
 -->
-<p>comment yerilen büyüktürler ve küçüktürler yerine entity li halleri getirildi,  hata veren yer burası :&copy;Mete</p>
+<p id="id3">id 3 burası comment yerilen büyüktürler ve küçüktürler yerine entity li halleri getirildi,  hata veren yer burası :&copy;Mete</p>
 
 <p>&lt;span&gt;burası span &lt;div&gt;burası div&lt;/div&gt; burası span&lt;/span&gt;</p>
 <p>uzun cümle kesilmesin örneği bold kısım bağlı :  aabdddddbbbbb ccccccccc ddddddddddddd eeeeeddddeeee  gggggggg hggggghhh iiggggggggggiiiiiii jjjjjjjjj kkkkkkkkk <b>lllllllllnnnnnnnnn&nbsp;oooooooooo&nbsp;pccccppp</b> rrrrrr ssssss ttttt uuuuu vvvvv yyyyy  xxxxx zzzzzzz qqqqqqq wwwwww</p>
@@ -78,6 +78,12 @@
 <div>
 <a href="https://validator.w3.org/nu/#textarea" title="validatate etmek için bu linki kullanabilirsin" target="_blank"> Linke basarak validate edebilirsin kardeş... - yeni windowda açılacak</a>
 </div>
+
+
+<!-- <a href="#id1"> Buraya basarsan id 1'e gidersin</a> -->
+<div> <a href="#id2"> Buraya basarsan id 2 ye gidersin</a></div>
+<div> <a href="#id3"> buraya basarsan id 3 e gidersin</a> </div>
+<div> <a name="id4" href="#id1" >  buraya basarsan başa gidersin  </a></div>
 
 
 <footer>
