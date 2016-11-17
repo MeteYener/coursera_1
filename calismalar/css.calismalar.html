@@ -16,28 +16,76 @@
 		}
 
 		/* bu class selector*/
-		span, .mete {
-			color: red;
+		 .mete {
+			color: white;
+			background-color: brown;
 
 		}
 		/*bu id selector*/
 		#bir-id {
 			font-size: 50px;
 		}
-		span {
+		div {
+			color:red; 
+			width: 400px;
+			height: 50px;
 			font-size: 15px;
 			font-weight: bold;
+			background-color: black;
+			opacity: 0.8;
+			text-align: center;
+		}
+		li {
+			list-style: none;
+		}
+		
+		aside li:nth-child(3) {
+			font-size: 24px;
+		}
+         
+         aside li:nth-child(2):hover {
+			font-size: 24px;
+					}
+		
+		a:link , a:visited {
+			text-decoration: none;
 			background-color: green;
-			opacity: 1;
+			border: 1px solid blue;
+			color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+
+		}
+
+		a:hover ,  a:active {
+			background-color: red;
+			color: purple;
+
 		}
 
 	</style>
+}
 </head>
 <body>
 <p>class belirlenmeyen p tagı </p>
 <p class="mete">class mete olarak belirlenen  p tagı </p>
 <div class="mete"> class mete olarak belirlenen div tagı </div>
 <p id="bir-id"> bu id si bir-id olarak belirlenmiş bir p </p>
-<span>bu da tek başına bir span tag i</span>
+<div>bu da tek başına bir div tag i</div>
+
+<p> pseudo class selecor çalışması </p>
+
+<aside>
+<ul>  
+<li> <a href="index.html"  target="_blank" title="ana sayfaya git">ana sayfaya git</a></li>
+<li> <a href="samedir_externallink.html" target="_blank" title="basit dosya"> basit bir sayfa aç</a></li>
+<li>  <a href="http://resimdiyari.com/index.php?/category/doga_resimleri" target="_blank" title="doga resimleri"> doğa resimleri</a>  </li>
+</ul>
+</aside>
+	
+
+
 </body>
 </html>
