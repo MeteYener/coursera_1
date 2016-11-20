@@ -5,66 +5,18 @@
 	<title>
 		CSS Çalışma Sayfası
 	</title>
+	<link rel="stylesheet" href="styles.my.CSS">
 	<style>
-
-		/* bu element selector*/
-		p {
-			color: blue;
-			font-size: 20px;
-			width: 400px;
-			text-align: center;
-		}
-
-		/* bu class selector*/
-		 .mete {
-			color: white;
-			background-color: brown;
-
-		}
-		/*bu id selector*/
-		#bir-id {
-			font-size: 50px;
-		}
-		div {
-			color:red; 
-			width: 400px;
-			height: 50px;
-			font-size: 15px;
-			font-weight: bold;
-			background-color: black;
-			opacity: 0.8;
-			text-align: center;
-		}
-		li {
-			list-style: none;
-		}
+	.style {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0000ff;
+	font-style: italic;
+	font-weight: 900; /*bold*/
+	font-size: 120%;
+	text-transform: capitalize;
+	text-align: right;
+	}
 		
-		aside li:nth-child(3) {
-			font-size: 24px;
-		}
-         
-         aside li:nth-child(2):hover {
-			font-size: 24px;
-					}
-		
-		a:link , a:visited {
-			text-decoration: none;
-			background-color: green;
-			border: 1px solid blue;
-			color: black;
-			display: block;
-			width: 200px;
-			text-align: center;
-			margin-bottom: 1px;
-
-		}
-
-		a:hover ,  a:active {
-			background-color: red;
-			color: purple;
-
-		}
-
 	</style>
 
 </head>
@@ -74,6 +26,11 @@
 <div class="mete"> class mete olarak belirlenen div tagı </div>
 <p id="bir-id"> bu id si bir-id olarak belirlenmiş bir p </p>
 <div>bu da tek başına bir div tag i</div>
+
+
+<p class="style" style="font-size:2em;" > class ı style olarak belirlenmiş bir p tag ı  ve yanında font 2m ile  iki katına çıkartıldı</p>
+
+<p class="style" style="font-size:0.5em;" > class ı style olarak belirlenmiş bir p tag ı ve ynında font 0.5 m ile yarıya indirildi</p>
 
 <p> pseudo class selecor çalışması </p>
 

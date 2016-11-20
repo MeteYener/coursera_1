@@ -1,0 +1,64 @@
+/* bu element selector*/
+body  {background-color: gray;}
+
+		
+
+
+		p {
+			color: blue;
+			font-size: 20px;
+			width: 400px;
+			text-align: center;
+		}
+
+		/* bu class selector*/
+		 .mete {
+			color: white;
+			background-color: brown;
+
+		}
+		/*bu id selector*/
+		#bir-id {
+			font-size: 50px;
+		}
+		div {
+			color:red; 
+			width: 400px;
+			height: 50px;
+			font-size: 15px;
+			font-weight: bold;
+			background-color: black;
+			opacity: 0.8;
+			text-align: center;
+		}
+		li {
+			list-style: none;
+		}
+		
+		aside li:nth-child(3) {
+			font-size: 24px;
+		}
+         
+
+
+         aside li:nth-child(even):hover {
+			font-size: 24px;
+					}
+		
+		a:link , a:visited {
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+
+		}
+
+		a:hover ,  a:active {
+			background-color: red;
+			color: purple;
+
+		}
